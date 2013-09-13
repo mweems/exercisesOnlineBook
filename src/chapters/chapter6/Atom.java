@@ -1,19 +1,22 @@
 package chapters.chapter6;
 
+import java.util.Random;
+
 public class Atom {
 
-    private final boolean condition;
-
-    public Atom(boolean condition) {
-        this.condition = condition;
-    }
+    private String state = "Alive";
+    Random rand = new Random();
 
     public String getCondition(){
-        String state;
-        if(condition == true){
-            state = "Alive";
-        } else {
-            state = "Decayed";
+        if(state == "Decayed"){
+            return state;
+        } else{
+            boolean condition = rand.nextBoolean();
+            if(condition == true){
+                state = "Alive";
+            } else {
+                state = "Decayed";
+            }
         }
         return state;
     }

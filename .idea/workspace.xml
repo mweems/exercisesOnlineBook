@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/CalculatorTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/CalculatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/CountDigitsTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/CountDigitsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/CountDownTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/CountDownTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/DigitFlipTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/DigitFlipTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/FibonacciTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/FibonacciTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/GoldenRatioTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/GoldenRatioTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/InstructionsTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/InstructionsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/IntegerDisplayTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/IntegerDisplayTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/PerfectNumberTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/PerfectNumberTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/PerfectSquareTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/PerfectSquareTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/PowerOfTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/PowerOfTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/PrimeNumberTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/PrimeNumberTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter5/QuadraticTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter5/QuadraticTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/ThisOldManTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/ThisOldManTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
@@ -65,10 +51,10 @@
     <file path="/CoinFlipTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379084236465" ignored="false" />
     <file path="/CoinFlip.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379084417171" ignored="false" />
     <file path="/Coin.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379086048341" ignored="false" />
-    <file path="/Atom.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379093577739" ignored="false" />
+    <file path="/Atom.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379104449751" ignored="false" />
     <file path="/AtomTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379086972982" ignored="false" />
-    <file path="/ScientistTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379095518761" ignored="false" />
-    <file path="/Scientist.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379095544369" ignored="false" />
+    <file path="/ScientistTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379104863330" ignored="false" />
+    <file path="/Scientist.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379104604965" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +118,28 @@
       <file leaf-file-name="ScientistTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.20588236">
+            <state line="11" column="35" selection-start="282" selection-end="282" vertical-scroll-proportion="0.32352942">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scientist.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Scientist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="38" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Atom.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Atom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,9 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/chapters/chapter5/PowerOfTest.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter5/PerfectNumberTest.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter5/GoldenRatioTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter5/CountDigitsTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter4/DigitFlipTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter5/InstructionsTest.java" />
@@ -174,6 +175,9 @@
         <option value="$PROJECT_DIR$/test/chapters/chapter4/IntegerDisplayTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter4/ThisOldManTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter4/CountDownTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter6/Scientist.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter6/Atom.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java" />
       </list>
     </option>
   </component>
@@ -304,6 +308,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawingProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,7 +501,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -575,7 +607,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -648,38 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter5/PerfectNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter5/GoldenRatioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter5/CountDigitsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter4/DigitFlipTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter5/InstructionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
@@ -763,9 +763,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Atom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Scientist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.20588236">
+        <state line="11" column="35" selection-start="282" selection-end="282" vertical-scroll-proportion="0.32352942">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

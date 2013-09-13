@@ -2,16 +2,13 @@ package chapters.chapter6;
 
 import org.junit.Test;
 
-import java.util.Random;
-
-import static junit.framework.Assert.*;
+import static junit.framework.Assert.assertEquals;
 
 public class ScientistTest {
 
     @Test
-    public void sixAtomsShouldDecayAfterFirstYear(){
-        Random rand = new Random(1);
-        Scientist scientist = new Scientist(rand);
-        assertEquals("Live atoms: 4, Decayed atoms: 6", scientist.experiment(10,1));
+    public void allTenAtomsShouldDecayAfterFiveYears(){
+        Scientist scientist = new Scientist();
+        assertEquals("After 5 years there are 0 live atoms out of 10", scientist.experiment(10,5));
     }
 }
