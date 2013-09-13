@@ -1,3 +1,5 @@
+package chapters.Chapter5;
+
 public class PrimeNumber {
 
     public boolean isPrime(int num){

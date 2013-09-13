@@ -1,5 +1,6 @@
 package chapters.chapter5;
 
+import chapters.Chapter5.Instructions;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

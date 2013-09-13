@@ -1,5 +1,6 @@
 package chapters.chapter4;
 
+import chapters.Chapter4.DigitFlip;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
