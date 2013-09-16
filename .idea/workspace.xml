@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/DateStringTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379355835469" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379358289090" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -68,6 +68,8 @@
     <file path="/Capitalize.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379355463410" ignored="false" />
     <file path="/DateStringTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379355946963" ignored="false" />
     <file path="/DateString.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379356477958" ignored="false" />
+    <file path="/ScrabbleScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379359370727" ignored="false" />
+    <file path="/ScrabbleScore.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379359305183" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,19 +130,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DateString.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/DateString.java">
+      <file leaf-file-name="ScrabbleScore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="67" selection-start="283" selection-end="283" vertical-scroll-proportion="0.1764706">
-              <folding />
+            <state line="27" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#166#0" expanded="true" />
+                <element signature="e#268#279#0" expanded="true" />
+                <element signature="e#351#362#0" expanded="true" />
+                <element signature="e#441#452#0" expanded="true" />
+                <element signature="e#535#546#0" expanded="true" />
+                <element signature="e#614#625#0" expanded="true" />
+                <element signature="e#695#706#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateStringTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/DateStringTest.java">
+      <file leaf-file-name="ScrabbleScoreTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="17" column="48" selection-start="466" selection-end="466" vertical-scroll-proportion="0.5">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,7 +167,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -166,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapters/chapter6/Atom.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter6/ScientistTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter6/MathQuestions.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter6/Card.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter6/EmployeeTest.java" />
@@ -182,6 +191,8 @@
         <option value="$PROJECT_DIR$/test/chapters/chapter9/CapitalizeTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/DateStringTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/DateString.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java" />
       </list>
     </option>
   </component>
@@ -232,6 +243,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="onlineBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawingProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter9" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,29 +370,7 @@
       <recent name="$PROJECT_DIR$/chapters" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateStringTest">
-    <configuration default="false" name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter6" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter6.EmployeeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ScrabbleScoreTest">
     <configuration default="false" name="EnglishConsonantTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -460,6 +471,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ScrabbleScoreTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.chapter9" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.ScrabbleScoreTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -496,19 +529,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EnglishConsonantTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RandomWordTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CapitalizeTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EnglishConsonantTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RandomWordTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CapitalizeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CapitalizeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RandomWordTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EnglishConsonantTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CapitalizeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RandomWordTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EnglishConsonantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -629,37 +662,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter6/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="132" selection-end="132" vertical-scroll-proportion="0.20588236">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="140" selection-end="140" vertical-scroll-proportion="0.14705883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/EnglishConsonantTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.44117647">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/EnglishConsonant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,19 +750,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/DateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="67" selection-start="283" selection-end="283" vertical-scroll-proportion="0.1764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/DateStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="134" selection-end="134" vertical-scroll-proportion="0.20588236">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/DateString.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/EnglishConsonant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="67" selection-start="283" selection-end="283" vertical-scroll-proportion="0.1764706">
-          <folding />
+        <state line="11" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#166#0" expanded="true" />
+            <element signature="e#268#279#0" expanded="true" />
+            <element signature="e#351#362#0" expanded="true" />
+            <element signature="e#441#452#0" expanded="true" />
+            <element signature="e#535#546#0" expanded="true" />
+            <element signature="e#614#625#0" expanded="true" />
+            <element signature="e#695#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="48" selection-start="466" selection-end="466" vertical-scroll-proportion="0.5">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
