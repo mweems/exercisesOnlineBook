@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379365571942" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379367728185" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -76,6 +76,8 @@
     <file path="/PluralForm.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379365263077" ignored="false" />
     <file path="/PresentParticipleTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379366692158" ignored="false" />
     <file path="/PresentParticiple.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379366796767" ignored="false" />
+    <file path="/OrdinalFormTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379368732895" ignored="false" />
+    <file path="/OrdinalForm.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379369288909" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,10 +138,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PresentParticiple.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OrdinalForm.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/OrdinalForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.3529412">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PluralForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/PluralForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="32" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#270#0" expanded="true" />
+                <element signature="e#355#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PresentParticiple.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/PresentParticiple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5588235">
+            <state line="19" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#300#0" expanded="true" />
@@ -148,10 +172,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PresentParticipleTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java">
+      <file leaf-file-name="OrdinalFormTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="77" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+            <state line="35" column="55" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,8 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/EnglishConsonantTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/EnglishConsonant.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/RandomWordTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/RandomWord.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/Capitalize.java" />
@@ -193,6 +215,8 @@
         <option value="$PROJECT_DIR$/test/chapters/chapter9/PluralFormTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/PresentParticiple.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter9/OrdinalForm.java" />
       </list>
     </option>
   </component>
@@ -370,29 +394,7 @@
       <recent name="$PROJECT_DIR$/chapters" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PresentParticipleTest">
-    <configuration default="false" name="DateStringTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.DateStringTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrdinalFormTest">
     <configuration default="false" name="ScrabbleScoreTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -493,6 +495,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="OrdinalFormTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.chapter9" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.OrdinalFormTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -529,19 +553,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DateStringTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ScrabbleScoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +613,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,24 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/RandomWordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="734" selection-end="734" vertical-scroll-proportion="0.85294116">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/Capitalize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="430" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/CapitalizeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="85" selection-start="727" selection-end="727" vertical-scroll-proportion="0.7352941">
@@ -779,9 +785,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="77" selection-start="730" selection-end="730" vertical-scroll-proportion="0.7352941">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="55" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/PluralForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="103" selection-start="312" selection-end="407" vertical-scroll-proportion="0.3529412">
+        <state line="19" column="32" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#259#270#0" expanded="true" />
@@ -790,22 +814,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="77" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/PresentParticiple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5588235">
+        <state line="19" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#300#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/OrdinalForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="426" selection-end="426" vertical-scroll-proportion="0.3529412">
+          <folding />
         </state>
       </provider>
     </entry>
