@@ -24,6 +24,12 @@ public class RandomWordTest {
         assertEquals(26, word.length());
     }
 
+    @Test
+    public void wordLengthShouldBeRandom(){
+        String word = RandomWord.randomWordLength();
+        assertNotNull(word);
+    }
+
 
 
 
