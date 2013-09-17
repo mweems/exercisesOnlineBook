@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379420120690" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379426848227" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -80,6 +80,8 @@
     <file path="/OrdinalForm.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379369288909" ignored="false" />
     <file path="/CeaserCypherTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379425619792" ignored="false" />
     <file path="/CeaserCypher.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379425431521" ignored="false" />
+    <file path="/AddCommasTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379429029019" ignored="false" />
+    <file path="/AddCommas.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379431827322" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,23 +142,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CeaserCypher.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java">
+      <file leaf-file-name="AddCommas.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.75452715">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#214#225#0" expanded="true" />
-              </folding>
+            <state line="18" column="7" selection-start="475" selection-end="475" vertical-scroll-proportion="0.5294118">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CeaserCypherTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java">
+      <file leaf-file-name="AddCommasTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="79" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/Capitalize.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/CapitalizeTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/DateStringTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/DateString.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java" />
@@ -195,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/chapters/chapter9/OrdinalForm.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
       </list>
     </option>
   </component>
@@ -351,56 +352,28 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="chapters.chapter9" />
       <recent name="chapters.chapter6" />
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="chapters.chapter6" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="chapters.chapter6" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/chapters" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/chapters" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chapters.chapter6" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.CeaserCypherTest">
-    <configuration default="false" name="MyIndexOfTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.MyIndexOfTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AddCommasTest">
     <configuration default="false" name="PluralFormTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -501,6 +474,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AddCommasTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.chapter9" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.AddCommasTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -537,19 +538,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyIndexOfTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PluralFormTest" />
       </list>
     </recent_temporary>
   </component>
@@ -670,43 +671,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="466" selection-end="466" vertical-scroll-proportion="0.5">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/MyIndexOfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="400" selection-end="400" vertical-scroll-proportion="0.44117647">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.34965035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PluralFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="64" selection-start="543" selection-end="543" vertical-scroll-proportion="0.61764705">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="77" selection-start="730" selection-end="730" vertical-scroll-proportion="0.7352941">
@@ -796,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="79" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.75452715">
@@ -810,6 +767,50 @@
             <element signature="imports" expanded="true" />
             <element signature="e#214#225#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="79" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.11764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/Chapter5/GoldenRatio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.11764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="475" selection-end="475" vertical-scroll-proportion="0.5294118">
+          <folding />
         </state>
       </provider>
     </entry>
