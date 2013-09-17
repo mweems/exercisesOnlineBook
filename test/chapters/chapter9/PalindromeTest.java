@@ -15,4 +15,9 @@ public class PalindromeTest {
     public void shouldReturnFalseWhenGivenBat(){
         assertFalse(Palindrome.isPalindrome("bat"));
     }
+
+    @Test
+    public void shouldReturnTrueWhenGivenPalindromeSentence(){
+        assertTrue(Palindrome.isPalindrome("Madam, I'm Adam"));
+    }
 }
