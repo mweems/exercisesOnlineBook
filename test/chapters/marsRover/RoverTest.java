@@ -18,4 +18,9 @@ public class RoverTest {
         assertEquals("00E",rover.move("0 0 N", "R"));
         assertEquals("00W",rover.move("0 0 N", "L"));
     }
+
+    @Test
+    public void testRoverReturnsErrorMessageWhenGivenBadMovementCharacter(){
+        assertEquals("not a valid character", rover.move("0 0 N", "Q"));
+    }
 }

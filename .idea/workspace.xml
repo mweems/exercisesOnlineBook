@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/instructions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" afterPath="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" afterPath="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +89,7 @@
     <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379619020269" ignored="false" />
     <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379613975183" ignored="false" />
     <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623818911" ignored="false" />
-    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623930749" ignored="false" />
+    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379624888804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +201,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +210,7 @@
       <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="156" selection-end="156" vertical-scroll-proportion="0.2647059">
+            <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.6764706">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -676,7 +667,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -857,14 +848,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="156" selection-end="156" vertical-scroll-proportion="0.2647059">
+        <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.6764706">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

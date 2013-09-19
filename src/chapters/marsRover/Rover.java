@@ -21,7 +21,7 @@ public class Rover {
             } else if(movementInstructions.charAt(i) == 'M'){
             rollForward();
             } else {
-                return "not a valid coordinate";
+                return "not a valid character";
             }
         }
             endPosition += XPosition;
