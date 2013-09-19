@@ -2,8 +2,11 @@ package chapters.marsRover;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
+import static junit.framework.Assert.assertTrue;
 
 public class MarsRoverTest {
 
@@ -23,6 +26,13 @@ public class MarsRoverTest {
     public void testRoverMainCreatesTwoRovers(){
         assertNotNull(roverOne);
         assertNotNull(roverTwo);
+    }
+
+    @Test
+    public void testRoverMainSetsGridSize(){
+        int[] expected = {5,5};
+        int[] actual = marsRover.setGridSize();
+        assertTrue(Arrays.equals(expected, actual));
     }
 
     @Test

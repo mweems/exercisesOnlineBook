@@ -54,4 +54,9 @@ public class MarsRover {
         endingCoordinates = firstRover + "\n" + secondRover;
         return endingCoordinates;
     }
+
+    public int[] setGridSize() {
+        int[] gridSize = grid.gridSize(instructionArray[0]);
+        return gridSize;
+    }
 }

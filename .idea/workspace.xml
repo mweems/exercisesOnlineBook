@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379619211685" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626220061" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -85,11 +87,12 @@
     <file path="/Palindrome.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379446109501" ignored="false" />
     <file path="/JudgeTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507367013" ignored="false" />
     <file path="/Judge.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507289135" ignored="false" />
-    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379617791979" ignored="false" />
-    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379619020269" ignored="false" />
-    <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379613975183" ignored="false" />
+    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627303683" ignored="false" />
+    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626818388" ignored="false" />
+    <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627096032" ignored="false" />
     <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623818911" ignored="false" />
     <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379624888804" ignored="false" />
+    <file path="/ScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626403480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,68 +169,7 @@
     <favorites_list name="drawingProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="instructions" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/instructions">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="29" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.6764706">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -245,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
@@ -256,11 +196,13 @@
         <option value="$PROJECT_DIR$/test/chapters/chapter10/JudgeTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/marsRover/instructions" />
-        <option value="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
-        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
-        <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
         <option value="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/GridTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java" />
       </list>
     </option>
   </component>
@@ -421,8 +363,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="chapters.marsRover" />
       <recent name="chapters.chapter10" />
+      <recent name="chapters.marsRover" />
       <recent name="chapters.chapter9" />
       <recent name="chapters.chapter6" />
       <recent name="" />
@@ -442,7 +384,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest">
+  <component name="RunManager" selected="JUnit.MarsRoverTest">
     <configuration default="false" name="AddCommasTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -651,7 +593,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -666,8 +608,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -740,29 +682,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="70" selection-start="453" selection-end="453" vertical-scroll-proportion="0.44117647">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="58" selection-start="666" selection-end="666" vertical-scroll-proportion="0.5294118">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
@@ -814,35 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.34965035">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,6 +753,38 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="24" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="252" selection-end="252" vertical-scroll-proportion="0.32352942">
+          <folding />
         </state>
       </provider>
     </entry>
