@@ -4,25 +4,21 @@ public class AddCommas {
 
     public static String addCommasToNumericString(String numString) {
 
-        String newNumString = "";
+        if(numString.length() <= 3) return numString;
 
-        if(numString.length() > 3){
-            int mod = numString.length()%3;
-            char[] numArray = numString.toCharArray();
+        int numOfDigitsBeforeFirstComma =  numString.length() % 3;
+        String numberWithCommas = "";
 
-            if(mod == 0) mod = 3;
-
-            for(int i = 0; i < mod; i++) newNumString += numArray[i];
-
-            newNumString += ",";
-
-            for(int i = mod; i < numString.length(); i++) newNumString += numArray[i];
-
-        } else {
-            newNumString = numString;
+        if(numOfDigitsBeforeFirstComma == 0) numOfDigitsBeforeFirstComma = 3;
+        for(int i=0; i < numOfDigitsBeforeFirstComma; i++) {
+            numberWithCommas += numString.charAt(i);
         }
-        return newNumString;
+
+        for(int i=numOfDigitsBeforeFirstComma; i < numString.length(); i = i+3) {
+            numberWithCommas += ",";
+            numberWithCommas += numString.substring(i, i+3);
+        }
+
+        return numberWithCommas;
     }
-
-
 }

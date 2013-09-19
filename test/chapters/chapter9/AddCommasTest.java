@@ -13,7 +13,7 @@ public class AddCommasTest {
 
     @Test
     public void shouldReturnNumberStringWithOneCommaIfFourCharacters(){
-        assertEquals("1,000", AddCommas.addCommasToNumericString("1000"));
+        assertEquals("1,123", AddCommas.addCommasToNumericString("1123"));
     }
 
     @Test

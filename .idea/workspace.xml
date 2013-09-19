@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" afterPath="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/marsRover/instructions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" afterPath="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" afterPath="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" afterPath="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379435562150" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379619211685" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
-    <file path="/Dummy.txt" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379420948795" ignored="false" />
-    <file path="/BeerSong.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379034014236" ignored="false" />
-    <file path="/BeerSongTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378912005899" ignored="false" />
+    <file path="/Dummy.txt" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379614318062" ignored="false" />
+    <file path="/BeerSong.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379506964197" ignored="false" />
+    <file path="/BeerSongTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379523280852" ignored="false" />
     <file path="/ThisOldManTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378912941215" ignored="false" />
     <file path="/ThisOldMan.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378912855195" ignored="false" />
     <file path="/addOddsTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378914405177" ignored="false" />
@@ -82,9 +89,16 @@
     <file path="/CeaserCypherTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379425619792" ignored="false" />
     <file path="/CeaserCypher.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379425431521" ignored="false" />
     <file path="/AddCommasTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379429029019" ignored="false" />
-    <file path="/AddCommas.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379444800734" ignored="false" />
+    <file path="/AddCommas.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379459852790" ignored="false" />
     <file path="/PalindromeTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379445107750" ignored="false" />
     <file path="/Palindrome.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379446109501" ignored="false" />
+    <file path="/JudgeTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507367013" ignored="false" />
+    <file path="/Judge.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507289135" ignored="false" />
+    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379617791979" ignored="false" />
+    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379619020269" ignored="false" />
+    <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379613975183" ignored="false" />
+    <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623818911" ignored="false" />
+    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623930749" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,19 +176,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddCommas.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
+      <file leaf-file-name="instructions" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/instructions">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddCommasTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="29" column="29" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,26 +196,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palindrome.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java">
+      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.8148893">
+            <state line="7" column="45" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#264#275#0" expanded="true" />
-                <element signature="e#527#538#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java">
+      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+            <state line="7" column="34" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="156" selection-end="156" vertical-scroll-proportion="0.2647059">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,22 +254,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/ScrabbleScoreTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/MyIndexOf.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/MyIndexOfTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/PluralForm.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/PluralFormTest.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/PresentParticipleTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/PresentParticiple.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/OrdinalForm.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
+        <option value="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter10/Judge.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter10/JudgeTest.java" />
+        <option value="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/instructions" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
       </list>
     </option>
   </component>
@@ -310,7 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9" />
+              <option name="myItemId" value="marsRover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,7 +380,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9" />
+              <option name="myItemId" value="marsRover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,14 +430,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapters.marsRover" />
+      <recent name="chapters.chapter10" />
       <recent name="chapters.chapter9" />
       <recent name="chapters.chapter6" />
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="chapters.marsRover" />
       <recent name="chapters.chapter6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapters/marsRover" />
       <recent name="$PROJECT_DIR$/src/chapters" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/chapters" />
@@ -417,79 +451,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
-    <configuration default="false" name="PresentParticipleTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.PresentParticipleTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="OrdinalFormTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.OrdinalFormTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CeaserCypherTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.CeaserCypherTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RoverTest">
     <configuration default="false" name="AddCommasTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -518,12 +480,84 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="BeerSongTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.PalindromeTest" />
+      <option name="PACKAGE_NAME" value="chapters.chapter4" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter4.BeerSongTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JudgeTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter10.JudgeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.marsRover" />
+      <option name="MAIN_CLASS_NAME" value="chapters.marsRover.MarsRoverTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.marsRover" />
+      <option name="MAIN_CLASS_NAME" value="chapters.marsRover.RoverTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -582,19 +616,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PalindromeTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PalindromeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CeaserCypherTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrdinalFormTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PresentParticipleTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
       </list>
     </recent_temporary>
   </component>
@@ -715,145 +749,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/PresentParticiple.java">
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5588235">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#289#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/OrdinalFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="853" selection-end="853" vertical-scroll-proportion="0.9411765">
+        <state line="15" column="70" selection-start="453" selection-end="453" vertical-scroll-proportion="0.44117647">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/MyIndexOf.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+        <state line="8" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/ScrabbleScore.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#155#166#0" expanded="true" />
-            <element signature="e#268#279#0" expanded="true" />
-            <element signature="e#351#362#0" expanded="true" />
-            <element signature="e#441#452#0" expanded="true" />
-            <element signature="e#535#546#0" expanded="true" />
-            <element signature="e#614#625#0" expanded="true" />
-            <element signature="e#695#706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/CeaserCypher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.75452715">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/CeaserCypherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="79" selection-start="640" selection-end="640" vertical-scroll-proportion="0.6764706">
+        <state line="18" column="58" selection-start="666" selection-end="666" vertical-scroll-proportion="0.5294118">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Card.java">
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
-          <folding />
+        <state line="11" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Dealer.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/CoinFlip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.11764706">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/Chapter5/GoldenRatio.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Coin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.11764706">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java">
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter6/DealerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/EnglishConsonantTest.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.11764706">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/RandomWord.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Dealer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="187" selection-start="137" selection-end="320" vertical-scroll-proportion="0.064386316">
+        <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/instructions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.34965035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#188#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/EnglishConsonant.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="128" selection-start="182" selection-end="302" vertical-scroll-proportion="0.20588236">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="7" column="45" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.8148893">
+        <state line="7" column="34" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="156" selection-end="156" vertical-scroll-proportion="0.2647059">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#264#275#0" expanded="true" />
-            <element signature="e#527#538#0" expanded="true" />
           </folding>
         </state>
       </provider>
