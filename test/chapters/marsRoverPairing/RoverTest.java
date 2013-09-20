@@ -41,7 +41,7 @@ public class RoverTest {
 
         rover.turnLeft();
 
-        assertEquals("S", rover.getDirection());
+        assertEquals("S", rover.getPosition());
     }
 
     @Test
@@ -50,7 +50,7 @@ public class RoverTest {
 
         rover.turnLeft();
 
-        assertEquals("N", rover.getDirection());
+        assertEquals("N", rover.getPosition());
     }
 
     @Test
@@ -59,7 +59,7 @@ public class RoverTest {
 
         rover.turnLeft();
 
-        assertEquals("W", rover.getDirection());
+        assertEquals("W", rover.getPosition());
     }
 
     @Test
@@ -68,6 +68,42 @@ public class RoverTest {
 
         rover.turnLeft();
 
-        assertEquals("E", rover.getDirection());
+        assertEquals("E", rover.getPosition());
+    }
+
+    @Test
+    public void shouldEndFacingWestWhenSouthAndTurnRight(){
+        Rover rover = new Rover(0,0,"S");
+
+        rover.turnRight();
+
+        assertEquals("W", rover.getPosition());
+    }
+
+    @Test
+    public void shouldEndFacingEastWhenNorthAndTurnRight(){
+        Rover rover = new Rover(0,0,"N");
+
+        rover.turnRight();
+
+        assertEquals("E", rover.getPosition());
+    }
+
+    @Test
+    public void shouldEndFacingSouthWhenFacingEastAndTurnRight(){
+        Rover rover = new Rover(0,0,"E");
+
+        rover.turnRight();
+
+        assertEquals("S", rover.getPosition());
+    }
+
+    @Test
+    public void shouldEndFacingNorthWhenFacingWestAndTurnRight(){
+        Rover rover = new Rover(0,0,"W");
+
+        rover.turnRight();
+
+        assertEquals("N", rover.getPosition());
     }
 }

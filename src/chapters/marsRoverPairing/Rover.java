@@ -3,18 +3,18 @@ package chapters.marsRoverPairing;
 public class Rover {
     private int xCoordinate;
     private int yCoordinate;
-    private String direction;
+    private CardinalDirection position;
 
     public Rover(int xCoordinate, int yCoordinate, String direction) {
         this.xCoordinate = xCoordinate;
         this.yCoordinate = yCoordinate;
-        this.direction = direction;
+        this.position = new CardinalDirection(direction);
     }
 
     public void move() {
-        if(direction == CardinalDirections.NORTH || direction == CardinalDirections.SOUTH){
+        if (position.getDirection() == CardinalDirection.NORTH || position.getDirection() == CardinalDirection.SOUTH) {
             yCoordinate += 1;
-        }else if(direction == CardinalDirections.EAST || direction == CardinalDirections.WEST){
+        } else if (position.getDirection() == CardinalDirection.EAST || position.getDirection() == CardinalDirection.WEST) {
             xCoordinate += 1;
         }
     }
@@ -28,21 +28,41 @@ public class Rover {
     }
 
 
-    public String getDirection() {
-        return direction;
+    public String getPosition() {
+        return position.getDirection();
     }
 
     public void turnLeft() {
-        if (direction == CardinalDirections.WEST) direction = CardinalDirections.SOUTH;
-        else if (direction == CardinalDirections.EAST) direction = CardinalDirections.NORTH;
-        else if (direction == CardinalDirections.NORTH) direction = CardinalDirections.WEST;
-        else if (direction == CardinalDirections.SOUTH) direction = CardinalDirections.EAST;
+        if (position.getDirection() == CardinalDirection.WEST) position.setDirection(CardinalDirection.SOUTH);
+        else if (position.getDirection() == CardinalDirection.EAST) position.setDirection(CardinalDirection.NORTH);
+        else if (position.getDirection() == CardinalDirection.NORTH) position.setDirection(CardinalDirection.WEST);
+        else if (position.getDirection() == CardinalDirection.SOUTH) position.setDirection(CardinalDirection.EAST);
     }
 
-    public class CardinalDirections {
+    public void turnRight() {
+        if (position.getDirection() == CardinalDirection.SOUTH) position.setDirection(CardinalDirection.WEST);
+        else if (position.getDirection() == CardinalDirection.NORTH) position.setDirection(CardinalDirection.EAST);
+        else if (position.getDirection() == CardinalDirection.EAST) position.setDirection(CardinalDirection.SOUTH);
+        else if (position.getDirection() == CardinalDirection.WEST) position.setDirection(CardinalDirection.NORTH);
+    }
+
+    public class CardinalDirection {
         private static final String NORTH="N";
         private static final String SOUTH="S";
         private static final String EAST="E";
         private static final String WEST="W";
+        private String direction;
+
+        public CardinalDirection(String direction) {
+            this.direction = direction;
+        }
+
+        public String getDirection() {
+            return direction;
+        }
+
+        public void setDirection(String direction) {
+            this.direction = direction;
+        }
     }
 }
