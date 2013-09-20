@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379691511768" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379698671115" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -93,10 +88,11 @@
     <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379688619554" ignored="false" />
     <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379690133502" ignored="false" />
     <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627096032" ignored="false" />
-    <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379694091889" ignored="false" />
-    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379694031466" ignored="false" />
+    <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379699938234" ignored="false" />
+    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379698116917" ignored="false" />
     <file path="/ScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629154818" ignored="false" />
     <file path="/Score.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629168685" ignored="false" />
+    <file path="/a.dummy" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379698667125" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +188,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapters/marsRoverPairing/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5588235">
+            <state line="19" column="35" selection-start="628" selection-end="628" vertical-scroll-proportion="0.5588235">
               <folding />
             </state>
           </provider>
@@ -201,7 +197,7 @@
       <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="7" column="5" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -387,6 +383,9 @@
       <recent name="chapters.chapter9" />
       <recent name="chapters.chapter6" />
     </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="chapters.marsRoverPairing.Rover.CardinalDirections" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="chapters.marsRover" />
       <recent name="chapters.chapter6" />
@@ -403,28 +402,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RoverTest">
-    <configuration default="false" name="JudgeTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter10.JudgeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -519,6 +496,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="RoverTest.shouldEndFacingSouthWhenWestAndTurnLeft" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.marsRoverPairing" />
+      <option name="MAIN_CLASS_NAME" value="chapters.marsRoverPairing.RoverTest" />
+      <option name="METHOD_NAME" value="shouldEndFacingSouthWhenWestAndTurnLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -555,19 +554,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldEndFacingSouthWhenWestAndTurnLeft" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldEndFacingSouthWhenWestAndTurnLeft" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -798,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="7" column="5" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -807,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/marsRoverPairing/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5588235">
+        <state line="19" column="35" selection-start="628" selection-end="628" vertical-scroll-proportion="0.5588235">
           <folding />
         </state>
       </provider>
