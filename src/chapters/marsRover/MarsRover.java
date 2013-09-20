@@ -3,13 +3,14 @@ package chapters.marsRover;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class MarsRover {
 
     private String INSTRUCTIONS = "";
     private String[] instructionArray;
     private Grid grid;
-    private Rover[] rovers = new Rover[2];
+    private ArrayList<Rover> rovers = new ArrayList<Rover>();
     private String endingCoordinates = "";
 
 
@@ -23,8 +24,7 @@ public class MarsRover {
             BufferedReader reader = new BufferedReader(new FileReader(instructions));
             String line;
             while ((line = reader.readLine()) != null){
-                INSTRUCTIONS += line;
-                INSTRUCTIONS += "\n";
+                INSTRUCTIONS += line + "\n";
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -43,20 +43,23 @@ public class MarsRover {
         return grid;
     }
 
-    public Rover[] createRovers() {
-        rovers[0] = new Rover();
-        rovers[1] = new Rover();
+    public ArrayList<Rover> createRovers() {
+        for(int i = 1; i < instructionArray.length; i += 2){
+            rovers.add(new Rover());
+        }
         return rovers;
     }
 
     public String finalCoordinates() {
-        String firstRover = rovers[0].move(instructionArray[1],instructionArray[2]);
-        String secondRover = rovers[1].move(instructionArray[3],instructionArray[4]);
-        endingCoordinates = firstRover + "\n" + secondRover;
+
+           for(int j = 1; j < instructionArray.length; j += 2){
+               endingCoordinates += rovers.get(j).move(instructionArray[j], instructionArray[j + 1]) + "\n";
+           }
+
         return endingCoordinates;
     }
 
-    public int[] setGridSize() {
+    public int[] gridSize() {
         int[] gridSize = grid.gridSize(instructionArray[0]);
         return gridSize;
     }

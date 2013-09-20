@@ -10,17 +10,17 @@ public class RoverTest {
 
     @Test
     public void testRoverReturnsCorrectCoordinateForXMovement(){
-        assertEquals("01N",rover.move("0 0 N", "M"));
+        assertEquals("0 1 N",rover.move("0 0 N", "M"));
     }
 
     @Test
     public void testRoverReturnsCorrectDirectionForTurns(){
-        assertEquals("00E",rover.move("0 0 N", "R"));
-        assertEquals("00W",rover.move("0 0 N", "L"));
+        assertEquals("0 0 E",rover.move("0 0 N", "R"));
+        assertEquals("0 0 W",rover.move("0 0 N", "L"));
     }
 
     @Test
-    public void testRoverReturnsErrorMessageWhenGivenBadMovementCharacter(){
-        assertEquals("not a valid character", rover.move("0 0 N", "Q"));
+    public void testRoverIgnoresNonValidInput(){
+        assertEquals("0 0 S", rover.move("0 0 N", "RBR"));
     }
 }

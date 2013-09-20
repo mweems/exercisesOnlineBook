@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/chapter10/Score.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379628111945" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379691511768" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -88,11 +90,11 @@
     <file path="/Palindrome.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379446109501" ignored="false" />
     <file path="/JudgeTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507367013" ignored="false" />
     <file path="/Judge.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507289135" ignored="false" />
-    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379681197672" ignored="false" />
-    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379684173241" ignored="false" />
+    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379688619554" ignored="false" />
+    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379690133502" ignored="false" />
     <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627096032" ignored="false" />
-    <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623818911" ignored="false" />
-    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379624888804" ignored="false" />
+    <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379694091889" ignored="false" />
+    <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379694031466" ignored="false" />
     <file path="/ScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629154818" ignored="false" />
     <file path="/Score.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629168685" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -162,7 +164,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" line="59" class="chapters.marsRover.MarsRover" package="chapters.marsRover">
+      <breakpoint url="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" line="26" class="chapters.marsRover.MarsRoverTest" package="chapters.marsRover">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -187,53 +189,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+      <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRoverPairing/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="603" selection-end="603" vertical-scroll-proportion="0.5734407">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5588235">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+        <entry file="file://$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -256,22 +227,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" />
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
         <option value="$PROJECT_DIR$/src/chapters/Chapter4/BeerSong.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter10/Judge.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter10/JudgeTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/marsRover/instructions" />
-        <option value="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
-        <option value="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/marsRover/GridTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter10/Score.java" />
-        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/Rover.java" />
         <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRoverPairing/Rover.java" />
       </list>
     </option>
   </component>
@@ -341,28 +312,6 @@
               <option name="myItemId" value="chapters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marsRover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,29 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="marsRover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter10" />
+              <option name="myItemId" value="marsRoverPairing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,11 +381,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapters.marsRoverPairing" />
       <recent name="chapters.chapter10" />
       <recent name="chapters.marsRover" />
       <recent name="chapters.chapter9" />
       <recent name="chapters.chapter6" />
-      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="chapters.marsRover" />
@@ -475,29 +402,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTest">
-    <configuration default="false" name="BeerSongTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter4" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter4.BeerSongTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RoverTest">
     <configuration default="false" name="JudgeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -548,12 +453,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ScoreTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.marsRover" />
-      <option name="MAIN_CLASS_NAME" value="chapters.marsRover.RoverTest" />
+      <option name="PACKAGE_NAME" value="chapters.chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter10.ScoreTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -566,24 +471,40 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ScoreTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter10" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter10.ScoreTest" />
+      <option name="PACKAGE_NAME" value="chapters.marsRoverPairing" />
+      <option name="MAIN_CLASS_NAME" value="chapters.marsRoverPairing.RoverTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.shouldMoveOneCoordinateAlongTheYAxis" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.marsRoverPairing" />
+      <option name="MAIN_CLASS_NAME" value="chapters.marsRoverPairing.RoverTest" />
+      <option name="METHOD_NAME" value="shouldMoveOneCoordinateAlongTheYAxis" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -634,19 +555,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveOneCoordinateAlongTheYAxis" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -767,22 +688,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter4/BeerSongTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/CoinFlip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.11764706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/chapter6/Coin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
@@ -811,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/instructions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/chapter10/Score.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.11764706">
@@ -835,9 +733,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="31" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.19972827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -849,37 +772,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+        <state line="59" column="5" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.6764706">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#321#328#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/instructions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="4" selection-end="36" vertical-scroll-proportion="0.11764706">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.1764706">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
+    <entry file="file://$PROJECT_DIR$/test/chapters/marsRoverPairing/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/chapters/marsRoverPairing/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="603" selection-end="603" vertical-scroll-proportion="0.5734407">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="20" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.5588235">
+          <folding />
         </state>
       </provider>
     </entry>
