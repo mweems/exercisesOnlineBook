@@ -46,23 +46,4 @@ public class Rover {
         else if (position.getDirection() == CardinalDirection.WEST) position.setDirection(CardinalDirection.NORTH);
     }
 
-    public class CardinalDirection {
-        private static final String NORTH="N";
-        private static final String SOUTH="S";
-        private static final String EAST="E";
-        private static final String WEST="W";
-        private String direction;
-
-        public CardinalDirection(String direction) {
-            this.direction = direction;
-        }
-
-        public String getDirection() {
-            return direction;
-        }
-
-        public void setDirection(String direction) {
-            this.direction = direction;
-        }
-    }
 }
