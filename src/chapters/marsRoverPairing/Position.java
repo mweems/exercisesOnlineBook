@@ -1,13 +1,13 @@
 package chapters.marsRoverPairing;
 
-public class CardinalDirection {
+public abstract class Position {
     public static final String NORTH="N";
     public static final String SOUTH="S";
     public static final String EAST="E";
     public static final String WEST="W";
     private String direction;
 
-    public CardinalDirection(String direction) {
+    public Position(String direction) {
         this.direction = direction;
     }
 
@@ -19,11 +19,13 @@ public class CardinalDirection {
         this.direction = direction;
     }
 
-    public CardinalDirection turnLeft() {
-        if (direction == CardinalDirection.WEST) return new South();
-        else if (direction == CardinalDirection.EAST) return new North();
-        else if (direction == CardinalDirection.NORTH) return  new West();
-        else if (direction == CardinalDirection.SOUTH) return  new East();
+    public abstract Position turnLeft();
+
+    public static Position createPosition(String direction) {
+        if(direction == Position.EAST) return new East();
+        if(direction == Position.NORTH) return new North();
+        if(direction == Position.WEST) return new West();
+        if(direction == Position.SOUTH) return new South();
 
         return null;
     }

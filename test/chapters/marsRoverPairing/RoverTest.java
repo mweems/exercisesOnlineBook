@@ -106,4 +106,23 @@ public class RoverTest {
 
         assertEquals("N", rover.getPosition());
     }
+
+    @Test
+    public void shouldSubtractOneFromYCoordinateWhenFacingSouthAndMove(){
+        Rover rover = new Rover(0,1,"S");
+
+        rover.move();
+
+        assertEquals(0, rover.getYCoordinate());
+    }
+
+    @Test
+    public void shouldSubtractOneFromXCoordinateWhenFacingWestAndMove(){
+        Rover rover = new Rover(1,0,"W");
+
+        rover.move();
+
+        assertEquals(0, rover.getXCoordinate());
+    }
+
 }
