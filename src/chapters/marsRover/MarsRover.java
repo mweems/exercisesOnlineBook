@@ -14,6 +14,7 @@ public class MarsRover {
 
 
     public MarsRover(String instructions){
+
         splitInstruction(readInput(instructions));
     }
 

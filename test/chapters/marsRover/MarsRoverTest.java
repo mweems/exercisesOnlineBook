@@ -11,14 +11,16 @@ import static junit.framework.Assert.assertTrue;
 public class MarsRoverTest {
 
     MarsRover marsRover = new MarsRover("/Users/Thoughtworker/Desktop/projects/continued_learning/study/java/onlineBook/src/chapters/marsRover/instructions");
+//      MarsRover marsRover = new MarsRover("instructions.txt");
+
 
     Rover[] rovers = marsRover.createRovers();
     Rover roverOne = rovers[0];
     Rover roverTwo = rovers[1];
+    Grid grid = marsRover.createGrid();
 
     @Test
     public void testRoverMainCreatesNewGrid(){
-        Grid grid = marsRover.createGrid();
         assertNotNull(grid);
     }
 

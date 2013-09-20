@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d42271c-16a8-4e05-affa-13837afeeb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" afterPath="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapters/chapter10/Score.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" afterPath="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drawingProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378841861138" ignored="false" />
-    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626220061" ignored="false" />
+    <file path="/fragment.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379628111945" ignored="false" />
     <file path="/MainTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378837939445" ignored="false" />
     <file path="/Conversion.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378855287421" ignored="false" />
     <file path="/ConversionTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1378850037396" ignored="false" />
@@ -87,12 +88,13 @@
     <file path="/Palindrome.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379446109501" ignored="false" />
     <file path="/JudgeTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507367013" ignored="false" />
     <file path="/Judge.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379507289135" ignored="false" />
-    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627303683" ignored="false" />
-    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626818388" ignored="false" />
+    <file path="/MarsRoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379681197672" ignored="false" />
+    <file path="/MarsRover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379684173241" ignored="false" />
     <file path="/Grid.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379627096032" ignored="false" />
     <file path="/Rover.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379623818911" ignored="false" />
     <file path="/RoverTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379624888804" ignored="false" />
-    <file path="/ScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379626403480" ignored="false" />
+    <file path="/ScoreTest.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629154818" ignored="false" />
+    <file path="/Score.java" changelist="3d42271c-16a8-4e05-affa-13837afeeb9a" time="1379629168685" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +162,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" line="59" class="chapters.marsRover.MarsRover" package="chapters.marsRover">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -169,7 +186,59 @@
     <favorites_list name="drawingProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="4" selection-start="603" selection-end="603" vertical-scroll-proportion="0.5734407">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Rover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="45" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/Grid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -187,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/chapters/chapter9/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/Palindrome.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter9/AddCommasTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/chapter9/AddCommas.java" />
@@ -200,9 +268,10 @@
         <option value="$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java" />
         <option value="$PROJECT_DIR$/test/chapters/marsRover/GridTest.java" />
         <option value="$PROJECT_DIR$/src/chapters/marsRover/Grid.java" />
-        <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
-        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
         <option value="$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/chapters/chapter10/Score.java" />
+        <option value="$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java" />
       </list>
     </option>
   </component>
@@ -334,6 +403,28 @@
               <option name="myItemId" value="chapters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawingProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -385,34 +476,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MarsRoverTest">
-    <configuration default="false" name="AddCommasTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="drawingProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="chapters.chapter9" />
-      <option name="MAIN_CLASS_NAME" value="chapters.chapter9.AddCommasTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="BeerSongTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="drawingProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -513,6 +576,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ScoreTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="drawingProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapters.chapter10" />
+      <option name="MAIN_CLASS_NAME" value="chapters.chapter10.ScoreTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -549,19 +634,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AddCommasTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ScoreTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JudgeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BeerSongTest" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +678,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,8 +693,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -733,10 +818,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/chapters/chapter10/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.34965035">
+        <state line="4" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.11764706">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="467" selection-end="467" vertical-scroll-proportion="0.5">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +842,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.34965035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.6764706">
+        <state line="23" column="68" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,7 +867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapters/marsRover/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="24" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0">
+        <state line="59" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,17 +876,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/chapters/marsRover/MarsRoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="603" selection-end="603" vertical-scroll-proportion="0.5734407">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapters/chapter10/ScoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="252" selection-end="252" vertical-scroll-proportion="0.32352942">
-          <folding />
         </state>
       </provider>
     </entry>
