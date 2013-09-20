@@ -33,10 +33,7 @@ public class Rover {
     }
 
     public void turnLeft() {
-        if (position.getDirection() == CardinalDirection.WEST) position.setDirection(CardinalDirection.SOUTH);
-        else if (position.getDirection() == CardinalDirection.EAST) position.setDirection(CardinalDirection.NORTH);
-        else if (position.getDirection() == CardinalDirection.NORTH) position.setDirection(CardinalDirection.WEST);
-        else if (position.getDirection() == CardinalDirection.SOUTH) position.setDirection(CardinalDirection.EAST);
+        position = position.turnLeft();
     }
 
     public void turnRight() {

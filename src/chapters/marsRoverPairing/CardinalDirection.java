@@ -18,4 +18,14 @@ public class CardinalDirection {
     public void setDirection(String direction) {
         this.direction = direction;
     }
+
+    public CardinalDirection turnLeft() {
+        if (direction == CardinalDirection.WEST) return new South();
+        else if (direction == CardinalDirection.EAST) return new North();
+        else if (direction == CardinalDirection.NORTH) return  new West();
+        else if (direction == CardinalDirection.SOUTH) return  new East();
+
+        return null;
+    }
 }
+
