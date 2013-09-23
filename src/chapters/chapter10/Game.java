@@ -10,15 +10,15 @@ public class Game {
         this.judges = judges;
     }
 
-    private int calculateTotalScore() {
-        int totalScore = 0;
+    private Double calculateTotalScore() {
+        double totalScore = 0;
         for(Judge judge:judges) totalScore += judge.score();
         return totalScore;
     }
 
-    private int highLow() {
-        int highestNumber = 0;
-        int lowestNumber = 10;
+    private Double highLow() {
+        double highestNumber = 0;
+        double lowestNumber = 10;
 
         for(int i = 0; i < judges.length; i++){
             if(highestNumber < judges[i].score()) highestNumber = judges[i].score();
@@ -27,8 +27,8 @@ public class Game {
        return highestNumber + lowestNumber;
     }
 
-   public int score() {
-        int total = calculateTotalScore();
+   public Double score() {
+        double total = calculateTotalScore();
         if(judges.length < 5){
             return total / judges.length;
         } else {

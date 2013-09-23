@@ -3,14 +3,14 @@ package chapters.chapter10;
 public class FakeJudge extends Judge {
 
 
-    private final int score;
+    private final double score;
 
-    public FakeJudge(int score) {
+    public FakeJudge(double score) {
         this.score = score;
     }
 
     @Override
-    public int score() {
+    public Double score() {
         return score;
     }
 }
