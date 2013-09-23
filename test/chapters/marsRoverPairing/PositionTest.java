@@ -8,7 +8,7 @@ public class PositionTest {
 
     @Test
     public void shouldReturnWestWhenFacingNorthAndTurnLeft(){
-        North position = (North) Position.createPosition("N");
+        North position = (North) Position.createPosition(0,0,"N");
 
         Position newDirection = position.turnLeft();
 
@@ -17,7 +17,7 @@ public class PositionTest {
 
     @Test
     public void shouldReturnSouthWhenFacingWestAndTurnLeft(){
-        West position = (West) Position.createPosition("W");
+        West position = (West) Position.createPosition(0,0,"W");
 
         Position newDirection = position.turnLeft();
 
@@ -26,7 +26,7 @@ public class PositionTest {
 
     @Test
     public void shouldReturnNorthWhenFacingEastAndTurnLeft(){
-        East position = (East) Position.createPosition("E");
+        East position = (East) Position.createPosition(0,0,"E");
 
         Position newDirection = position.turnLeft();
 
@@ -34,17 +34,76 @@ public class PositionTest {
     }
 
     @Test
+    public void shouldReturnWestWhenFacingSouthAndTurnRight(){
+        South position = (South) Position.createPosition(0,0,"S");
+
+        Position newDirection = position.turnRight();
+
+        assertEquals(West.class, newDirection.getClass());
+    }
+
+    @Test
+    public void shouldReturnNorthWhenFacingWestAndTurnRight(){
+        West position = (West) Position.createPosition(0,0,"W");
+
+        Position newDirection = position.turnRight();
+
+        assertEquals(North.class, newDirection.getClass());
+    }
+
+    @Test
+    public void shouldReturnEastWhenFacingNorthAndTurnRight(){
+        North position = (North) Position.createPosition(0,0,"N");
+
+        Position newDirection = position.turnRight();
+
+        assertEquals(East.class, newDirection.getClass());
+    }
+
+    @Test
+    public void shouldReturnSouthWhenFacingEastAndTurnRight(){
+        East position = (East) Position.createPosition(0,0,"E");
+
+        Position newDirection = position.turnRight();
+
+        assertEquals(South.class, newDirection.getClass());
+    }
+
+    @Test
+    public void shouldReturnEastWhenFacingSouthAndTurnLeft(){
+        South position = (South) Position.createPosition(0,0,"S");
+
+        Position newDirection = position.turnLeft();
+
+        assertEquals(East.class, newDirection.getClass());
+    }
+
+    @Test
     public void shouldCreateASouthObjectWhenPassingS() {
-        South position = (South) Position.createPosition("S");
+        South position = (South) Position.createPosition(0,0,"S");
 
         assertEquals(South.class, position.getClass());
     }
 
     @Test
     public void shouldCreateAnEastObjectWhenPassingE(){
-        East position = (East) Position.createPosition("E");
+        East position = (East) Position.createPosition(0,0,"E");
 
         assertEquals(East.class, position.getClass());
+    }
+
+    @Test
+    public void shouldCreateAWestObjectWhenPassingW(){
+        West position = (West) Position.createPosition(0,0,"W");
+
+        assertEquals(West.class, position.getClass());
+    }
+
+    @Test
+    public void shouldCreateANorthObjectWhenPassingN(){
+        North position = (North) Position.createPosition(0,0,"N");
+
+        assertEquals(North.class, position.getClass());
     }
 
 

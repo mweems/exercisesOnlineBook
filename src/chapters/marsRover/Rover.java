@@ -1,5 +1,5 @@
 package chapters.marsRover;
-
+// Job of the class:
 public class Rover {
 
     private int XPosition;
