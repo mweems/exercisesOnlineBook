@@ -3,8 +3,7 @@ package chapters.chapter11;
 public class IsSorted {
 
     public static boolean checkArray(int[] array) {
-        boolean sorted = sortArray(array);
-        return sorted;
+        return sortArray(array);
     }
 
     private static boolean sortArray(int[] array) {
