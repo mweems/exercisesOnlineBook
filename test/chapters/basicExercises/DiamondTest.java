@@ -8,7 +8,7 @@ public class DiamondTest {
 
     @Test
     public void shouldReturnATriangleWithThreeLines(){
-        assertEquals("  *\n ***\n*****\n", Diamond.makeTriangle(3));
+        assertEquals("  *\n ***\n*****", Diamond.makeTriangle(3));
     }
 
     @Test
@@ -17,13 +17,25 @@ public class DiamondTest {
                      "   ***\n" +
                      "  *****\n" +
                      " *******\n" +
-                     "*********\n", Diamond.makeTriangle(5));
+                     "*********", Diamond.makeTriangle(5));
     }
 
     @Test
     public void shouldReturnADiamondWithThreeLines(){
-        assertEquals(" *\n***\n *\n", Diamond.makeDiamond(3));
+        assertEquals(" *\n***\n *", Diamond.makeDiamond(3));
     }
 
+    @Test
+    public void shouldReturnADiamondWithFiveLines(){
+        assertEquals("  *\n" +
+                     " ***\n" +
+                     "*****\n" +
+                     " ***\n" +
+                     "  *", Diamond.makeDiamond(5));
+    }
 
+    @Test
+    public void shouldReturnDiamondWithThreeLinesAndMattAsMiddleLine(){
+        assertEquals(" *\nMatt\n *", Diamond.nameDiamond(3,"Matt"));
+    }
 }
