@@ -3,6 +3,8 @@ package chapters.marsRoverPairing;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class PositionTest {
 
@@ -104,6 +106,40 @@ public class PositionTest {
         North position = (North) Position.createPosition(0,0,"N");
 
         assertEquals(North.class, position.getClass());
+    }
+
+    @Test
+    public void shouldReturnTrueWhenAllFieldsInTwoObjectsAreTheSame(){
+        North positionOne = (North) Position.createPosition(0,0,"N");
+        North positionTwo = (North) Position.createPosition(0,0,"N");
+        assertTrue(positionOne.equals(positionTwo));
+    }
+
+    @Test
+    public void shouldReturnFalseWhenAllFieldsInTwoObjectsAreNotTheSame(){
+        North positionOne = (North) Position.createPosition(0,0,"N");
+        North positionTwo = (North) Position.createPosition(1,0,"N");
+        assertFalse(positionOne.equals(positionTwo));
+    }
+
+    @Test
+    public void equalsShouldReturnFalseWhenObjectIsOfDifferentType(){
+        North positionOne = (North) Position.createPosition(0,0,"N");
+        Grid grid = new Grid(0, 0);
+        assertFalse(positionOne.equals(grid));
+    }
+
+    @Test
+    public void equalsShouldReturnFalseWhenObjectIsNull(){
+        North position = (North) Position.createPosition(0,0,"N");
+        assertFalse(position.equals(null));
+    }
+
+    @Test
+    public void hashCodeShouldReturnTheSameNumberForTwoEqualObjects(){
+        North positionOne = (North) Position.createPosition(0,0,"N");
+        North positionTwo = (North) Position.createPosition(0,0,"N");
+        assertEquals(positionOne.hashCode(), positionTwo.hashCode());
     }
 
 

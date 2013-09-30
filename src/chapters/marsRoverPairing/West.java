@@ -10,8 +10,8 @@ public class West extends Position {
 
 
     @Override
-    public void move() {
-        xCoordinate--;
+    public Position move() {
+       return new West(xCoordinate - 1, yCoordinate);
     }
 
     @Override

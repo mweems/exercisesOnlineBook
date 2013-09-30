@@ -1,31 +1,47 @@
 package chapters.marsRoverPairing;
 
 public class Rover {
-    private Position position;
 
-    public Rover(int xCoordinate, int yCoordinate, String direction) {
-        this.position = Position.createPosition(xCoordinate, yCoordinate, direction);
+
+    private NewPosition currentPosition;
+    private final Grid grid;
+    private NewPosition lastPosition;
+    private boolean isDead = false;
+
+    public NewPosition getPosition() {
+        return currentPosition;
     }
 
-    public void move() {
-        position.move();
+    public Rover(NewPosition position, Grid grid) {
+        this.currentPosition = position;
+        this.grid = grid;
     }
 
-    public int getYCoordinate() {
-        return position.getYCoordinate();
+    public void move() throws Exception {
+        if(isDead) throw new Exception("This Rover is Dead");
+        if(grid.hasBeaconAt(currentPosition)) return;
+
+        lastPosition = currentPosition;
+        currentPosition = currentPosition.move();
+
+        if(!grid.isValidPosition(new Coordinate(currentPosition.getXCoordinate(), currentPosition.getYCoordinate()))){
+            grid.addBeacon(lastPosition);
+            currentPosition = lastPosition;
+            isDead = true;
+        }
     }
 
-    public int getXCoordinate() {
-        return position.getXCoordinate();
+    public void turnLeft() throws Exception {
+        if(isDead) throw new Exception("This Rover is Dead");
+        currentPosition.turnLeft();
     }
 
-
-    public void turnLeft() {
-        position = position.turnLeft();
+    public void turnRight() throws Exception {
+        if(isDead) throw new Exception("This Rover is Dead");
+        currentPosition.turnRight();
     }
 
-    public void turnRight() {
-        position = position.turnRight();
+    public boolean isDead() {
+        return isDead;
     }
-
 }

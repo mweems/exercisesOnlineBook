@@ -10,8 +10,8 @@ public class South extends Position {
 
 
     @Override
-    public void move() {
-        yCoordinate--;
+    public Position move() {
+       return new South(xCoordinate, yCoordinate - 1);
     }
 
     @Override

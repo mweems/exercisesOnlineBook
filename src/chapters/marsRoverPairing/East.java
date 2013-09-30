@@ -10,8 +10,8 @@ public class East extends Position {
 
 
     @Override
-    public void move() {
-        xCoordinate++;
+    public Position move() {
+        return new East(xCoordinate + 1, yCoordinate);
     }
 
     @Override
