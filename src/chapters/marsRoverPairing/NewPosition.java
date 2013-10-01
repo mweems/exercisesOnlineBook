@@ -2,65 +2,92 @@ package chapters.marsRoverPairing;
 
 public class NewPosition {
 
-    public String addString() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+    enum Directions{
+        NORTH {
+            public Directions turnRight() {
+                return EAST;
+            }
+
+            public Directions turnLeft() {
+                return WEST;
+            }
+
+            public Coordinate move(Coordinate old) {
+                return new Coordinate(old.x, old.y + 1);
+            }
+        },
+        SOUTH {
+            public Directions turnRight() {
+                return WEST;
+            }
+
+            public Directions turnLeft() {
+                return EAST;
+            }
+
+            public Coordinate move(Coordinate old) {
+                return new Coordinate(old.x, old.y - 1);
+            }
+        },
+        EAST {
+            public Directions turnRight() {
+                return SOUTH;
+            }
+
+            public Directions turnLeft() {
+                return NORTH;
+            }
+
+            public Coordinate move(Coordinate old) {
+                return new Coordinate(old.x + 1, old.y);
+            }
+        },
+        WEST {
+            public Directions turnRight() {
+                return NORTH;
+            }
+
+            public Directions turnLeft() {
+                return SOUTH;
+            }
+
+            public Coordinate move(Coordinate old) {
+                return new Coordinate(old.x - 1, old.y);
+            }
+        };
+
+        public abstract Directions turnRight();
+        public abstract Directions turnLeft();
+        public abstract Coordinate move(Coordinate oldPosition);
     }
 
-    enum Directions{ N, S, E, W }
-
-    private int xCoordinate;
-    private int yCoordinate;
-    private Directions direction;
+    private Coordinate position;
+    protected Directions direction;
 
 
     public NewPosition(int xCoordinate, int yCoordinate, Directions direction) {
-        this.xCoordinate = xCoordinate;
-        this.yCoordinate = yCoordinate;
+        position = new Coordinate(xCoordinate, yCoordinate);
         this.direction = direction;
     }
 
     public int getXCoordinate() {
-        return xCoordinate;
+        return position.x;
     }
 
     public int getYCoordinate() {
-        return yCoordinate;
+        return position.y;
     }
 
-    public void turnRight() {
-        switch (direction){
-            case N: direction = Directions.E;
-                break;
-            case W: direction = Directions.N;
-                break;
-            case S: direction = Directions.W;
-                break;
-            case E: direction = Directions.S;
-                break;
-        }
+    public void turnRight(){
+        direction = direction.turnRight();
     }
 
-    public void turnLeft() {
-       switch (direction){
-           case N: direction = Directions.W;
-               break;
-           case W: direction = Directions.S;
-               break;
-           case S: direction = Directions.E;
-               break;
-           case E: direction = Directions.N;
-                break;
-       }
+    public void turnLeft(){
+        direction = direction.turnLeft();
     }
 
-    public NewPosition move() {
-       switch (direction){
-           case E: return new NewPosition(xCoordinate + 1, yCoordinate, Directions.E);
-           case W: return new NewPosition(xCoordinate - 1, yCoordinate, Directions.W);
-           case N: return new NewPosition(xCoordinate, yCoordinate + 1, Directions.N);
-           case S: return new NewPosition(xCoordinate, yCoordinate - 1, Directions.S);
-       }
-        return null;
+    public void move(){
+        position = direction.move(position);
     }
 
     public String getDirection() {
@@ -74,8 +101,8 @@ public class NewPosition {
 
         NewPosition position = (NewPosition) o;
 
-        if (xCoordinate != position.xCoordinate) return false;
-        if (yCoordinate != position.yCoordinate) return false;
+        if (getXCoordinate() != position.getXCoordinate()) return false;
+        if (getYCoordinate() != position.getYCoordinate()) return false;
         if (direction != position.direction) return false;
 
         return true;
@@ -83,8 +110,8 @@ public class NewPosition {
 
     @Override
     public int hashCode() {
-        int result = xCoordinate;
-        result = 31 * result + yCoordinate;
+        int result = getXCoordinate();
+        result = 31 * result + getYCoordinate();
         result = 31 * result + (direction != null ? direction.hashCode() : 0);
         return result;
     }

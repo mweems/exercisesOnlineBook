@@ -22,8 +22,8 @@ public class Grid {
 
 
     public boolean isValidPosition(Coordinate coordinate) {
-        if(coordinate.getX() < lowerLeft.getX() || coordinate.getX() > upperRight.getX()) return false;
-        if(coordinate.getY() < lowerLeft.getY() || coordinate.getY() > upperRight.getY()) return false;
+        if(coordinate.x < lowerLeft.x || coordinate.x > upperRight.x) return false;
+        if(coordinate.y < lowerLeft.y || coordinate.y > upperRight.y) return false;
 
         return true;
     }

@@ -10,7 +10,7 @@ public class GridTest {
 
     @Test
     public void shouldReturnTrueIfThereIsABeaconAtGivenPosition(){
-        NewPosition position = new NewPosition(1,0, NewPosition.Directions.N);
+        NewPosition position = new NewPosition(1,0, NewPosition.Directions.NORTH);
         Grid grid = new Grid(1,1);
         grid.addBeacon(position);
         assertEquals(true, grid.hasBeaconAt(position));
@@ -18,7 +18,7 @@ public class GridTest {
 
     @Test
     public void shouldReturnFalseIfThereIsNoBeaconAtAGivenPosition(){
-        NewPosition position = new NewPosition(1,0, NewPosition.Directions.N);
+        NewPosition position = new NewPosition(1,0, NewPosition.Directions.NORTH);
         Grid grid = new Grid(1,1);
         assertEquals(false, grid.hasBeaconAt(position));
     }
@@ -46,8 +46,8 @@ public class GridTest {
     @Test
     public void shouldMaintainMultipleBeacons(){
         Grid grid = new Grid(0,0);
-        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.N);
-        NewPosition positionTwo = new NewPosition(0,0, NewPosition.Directions.W);
+        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.NORTH);
+        NewPosition positionTwo = new NewPosition(0,0, NewPosition.Directions.WEST);
         grid.addBeacon(positionOne);
         grid.addBeacon(positionTwo);
         assertTrue(grid.hasBeaconAt(positionOne));

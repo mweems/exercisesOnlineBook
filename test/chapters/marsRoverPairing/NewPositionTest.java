@@ -10,119 +10,119 @@ public class NewPositionTest {
 
     @Test
     public void shouldReturnWestWhenFacingNorthAndTurnLeft(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.N);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.NORTH);
         position.turnLeft();
-        assertEquals("W", position.getDirection());
+        assertEquals("WEST", position.getDirection());
     }
 
     @Test
     public void shouldReturnSouthWhenFacingWestAndTurnLeft(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.W);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.WEST);
         position.turnLeft();
-        assertEquals("S", position.getDirection());
+        assertEquals("SOUTH", position.getDirection());
     }
 
     @Test
     public void shouldReturnEastWhenFacingSouthAndTurnLeft(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.S);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.SOUTH);
         position.turnLeft();
-        assertEquals("E", position.getDirection());
+        assertEquals("EAST", position.getDirection());
     }
 
     @Test
     public void shouldReturnNorthWhenFacingEastAndTurnLeft(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.E);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.EAST);
         position.turnLeft();
-        assertEquals("N", position.getDirection());
+        assertEquals("NORTH", position.getDirection());
     }
 
     @Test
     public void shouldReturnEastWhenFacingNorthAndTurnRight(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.N);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.NORTH);
         position.turnRight();
-        assertEquals("E", position.getDirection());
+        assertEquals("EAST", position.getDirection());
     }
 
     @Test
     public void shouldReturnNorthWhenFacingWestAndTurnRight(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.W);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.WEST);
         position.turnRight();
-        assertEquals("N", position.getDirection());
+        assertEquals("NORTH", position.getDirection());
     }
 
     @Test
     public void shouldReturnWestWhenFacingSouthAndTurnRight(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.S);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.SOUTH);
         position.turnRight();
-        assertEquals("W", position.getDirection());
+        assertEquals("WEST", position.getDirection());
     }
 
     @Test
     public void shouldReturnSouthWhenFacingEastAndTurnRight(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.E);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.EAST);
         position.turnRight();
-        assertEquals("S", position.getDirection());
+        assertEquals("SOUTH", position.getDirection());
     }
 
     @Test
     public void shouldAddOneToTheXCoordinateWhenFacingEastAndMove(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.E);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.EAST);
         position.move();
         assertEquals(1, position.getXCoordinate());
     }
 
     @Test
     public void shouldSubtractOneFromTheXCoordinateWhenFacingWestAndMove(){
-        NewPosition position = new NewPosition(1,0, NewPosition.Directions.W);
+        NewPosition position = new NewPosition(1,0, NewPosition.Directions.WEST);
         position.move();
         assertEquals(0, position.getXCoordinate());
     }
 
     @Test
     public void shouldAddOneToTheYCoordinateWhenFacingNorthAndMove(){
-        NewPosition position = new NewPosition(0,0, NewPosition.Directions.N);
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.NORTH);
         position.move();
         assertEquals(1, position.getYCoordinate());
     }
 
     @Test
     public void shouldSubtractOneFromTheYCoordinateWhenFacingSouthAndMove(){
-        NewPosition position = new NewPosition(0,1, NewPosition.Directions.S);
+        NewPosition position = new NewPosition(0,1, NewPosition.Directions.SOUTH);
         position.move();
         assertEquals(0, position.getYCoordinate());
     }
 
     @Test
     public void shouldReturnTrueWhenAllFieldsInTwoObjectsAreTheSame(){
-        North positionOne = (North) Position.createPosition(0,0,"N");
-        North positionTwo = (North) Position.createPosition(0,0,"N");
+        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.NORTH);
+        NewPosition positionTwo = new NewPosition(0,0, NewPosition.Directions.NORTH);
         assertTrue(positionOne.equals(positionTwo));
     }
 
     @Test
     public void shouldReturnFalseWhenAllFieldsInTwoObjectsAreNotTheSame(){
-        North positionOne = (North) Position.createPosition(0,0,"N");
-        North positionTwo = (North) Position.createPosition(1,0,"N");
+        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.NORTH);
+        NewPosition positionTwo = new NewPosition (1,0, NewPosition.Directions.NORTH);
         assertFalse(positionOne.equals(positionTwo));
     }
 
     @Test
     public void equalsShouldReturnFalseWhenObjectIsOfDifferentType(){
-        North positionOne = (North) Position.createPosition(0,0,"N");
+        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.NORTH);
         Grid grid = new Grid(0, 0);
         assertFalse(positionOne.equals(grid));
     }
 
     @Test
     public void equalsShouldReturnFalseWhenObjectIsNull(){
-        North position = (North) Position.createPosition(0,0,"N");
+        NewPosition position = new NewPosition(0,0, NewPosition.Directions.NORTH);
         assertFalse(position.equals(null));
     }
 
     @Test
     public void hashCodeShouldReturnTheSameNumberForTwoEqualObjects(){
-        North positionOne = (North) Position.createPosition(0,0,"N");
-        North positionTwo = (North) Position.createPosition(0,0,"N");
+        NewPosition positionOne = new NewPosition(0,0, NewPosition.Directions.NORTH);
+        NewPosition positionTwo = new NewPosition(0,0, NewPosition.Directions.NORTH);
         assertEquals(positionOne.hashCode(), positionTwo.hashCode());
     }
 
