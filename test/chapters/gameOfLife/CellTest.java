@@ -19,17 +19,5 @@ public class CellTest {
         assertFalse(cell.isAlive());
     }
 
-    @Test
-    public void shouldReturnDeadWhenAliveAndDieIsCalled(){
-        Cell cell = new Cell(true);
-        cell.die();
-        assertFalse(cell.isAlive());
-    }
 
-    @Test
-    public void shouldReturnAliveWhenDeadAndLiveIsCalled(){
-        Cell cell = new Cell(false);
-        cell.live();
-        assertTrue(cell.isAlive());
-    }
 }

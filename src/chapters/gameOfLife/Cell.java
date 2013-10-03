@@ -12,11 +12,4 @@ public class Cell {
         return alive;
     }
 
-    public void die() {
-        alive = false;
-    }
-
-    public void live() {
-        alive = true;
-    }
 }
